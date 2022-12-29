@@ -1,0 +1,64 @@
+body {
+    background: lightgray;
+    margin: 0;
+}
+#class  {
+    color: red;
+}
+.about-myself {
+    font-family: 'Oleo Script', cursive;
+}
+#container {
+    display: inline-block
+    margin-top: 10px;
+}
+#card1 {
+    border: 3px black solid;
+    float: left;
+    left: 0;
+    width: 100px;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+    box-sizing: border-box
+    line-height: 1.6em;
+}
+#card2 {
+    border: 3px black solid;
+float: right;
+right: 0;
+    width: 100px;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+    box-sizing: border-box
+    line-height: 1.6em;
+}
+#card3 {
+    border: 3px black solid;
+    margin: auto;
+    width: 100px;
+    box-shadow: 5px 5px 10px 2px rgba(0,0,0,.8);
+    box-sizing: border-box
+    line-height: 1.6em;
+}
+#container p {
+    text-align: center;
+}
+#class {
+    border: 5px solid black;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    width: 194px;
+}
+#nav {
+    background-color: chocolate;
+        display: block;
+        border: blueviolet solid 2px;
+        padding: 5px;
+        margin-bottom: 1px;
+}
+button {
+    background-color: gold;
+}
+button:hover {
+    color: lightgray;
+    background-color: black;
+}
